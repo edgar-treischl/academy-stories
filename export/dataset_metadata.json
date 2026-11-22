@@ -1,0 +1,9 @@
+{
+  "id": "confounding_school_education",
+  "version": "1.0.0",
+  "created_by": "R",
+  "description": "Simulierter Schuldaten-Datensatz zur explorativen Untersuchung möglicher Konfundierung.",
+  "observations": 180,
+  "variables": ["school_id", "digital_devices", "math_performance", "social_index", "school_size", "teacher_experience", "school_type", "social_group"],
+  "files": ["schools.csv", "variables.json", "plots.json", "story.json", "reference_results.json", "plot_data.json"]
+}

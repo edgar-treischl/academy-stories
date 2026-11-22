@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "story_id": "confounding_school_education",
+    "dataset_version": "1.0.0",
+    "description": "Statistische Referenzergebnisse der simulierten Schuldaten"
+  },
+  "correlations": {
+    "devices_math": 0.257282,
+    "social_devices": 0.512531,
+    "social_math": 0.524351,
+    "partial_correlation": -0.01568,
+    "matrix": [
+      [1, 0.257282, 0.512531, -0.223177, -0.088429],
+      [0.257282, 1, 0.524351, 0.057225, 0.021028],
+      [0.512531, 0.524351, 1, -0.039928, -0.078244],
+      [-0.223177, 0.057225, -0.039928, 1, -0.017964],
+      [-0.088429, 0.021028, -0.078244, -0.017964, 1]
+    ]
+  },
+  "models": {
+    "baseline": {
+      "description": "Unbereinigter Zusammenhang",
+      "coefficients": [
+        {
+          "term": "(Intercept)",
+          "estimate": 463.233351,
+          "std.error": 9.888822,
+          "statistic": 46.844137,
+          "p.value": 4.886003e-102,
+          "conf.low": 443.718938,
+          "conf.high": 482.747764
+        },
+        {
+          "term": "digital_devices",
+          "estimate": 0.857445,
+          "std.error": 0.241388,
+          "statistic": 3.552145,
+          "p.value": 0.000489,
+          "conf.low": 0.381095,
+          "conf.high": 1.333796
+        }
+      ],
+      "statistics": [
+        {
+          "model_id": "baseline",
+          "r.squared": 0.066194,
+          "adj.r.squared": 0.060948,
+          "sigma": 37.596283,
+          "statistic": 12.617734,
+          "p.value": 0.000489,
+          "df.residual": 178
+        }
+      ]
+    },
+    "adjusted": {
+      "description": "Zusammenhang unter Kontrolle des Sozialindex",
+      "coefficients": [
+        {
+          "term": "(Intercept)",
+          "estimate": 429.309533,
+          "std.error": 9.944684,
+          "statistic": 43.169753,
+          "p.value": 6.735259e-96,
+          "conf.low": 409.684125,
+          "conf.high": 448.93494
+        },
+        {
+          "term": "digital_devices",
+          "estimate": -0.051821,
+          "std.error": 0.248381,
+          "statistic": -0.208634,
+          "p.value": 0.834974,
+          "conf.low": -0.541989,
+          "conf.high": 0.438348
+        },
+        {
+          "term": "social_index",
+          "estimate": 1.399021,
+          "std.error": 0.195872,
+          "statistic": 7.142543,
+          "p.value": 2.291599e-11,
+          "conf.low": 1.012477,
+          "conf.high": 1.785565
+        }
+      ],
+      "statistics": [
+        {
+          "model_id": "adjusted",
+          "r.squared": 0.275122,
+          "adj.r.squared": 0.266931,
+          "sigma": 33.217912,
+          "statistic": 33.589542,
+          "p.value": 4.299671e-13,
+          "df.residual": 177
+        }
+      ]
+    }
+  },
+  "interpretation": {
+    "initial_observation": "Zwischen digitaler Ausstattung und Mathematikleistung besteht ein positiver Zusammenhang.",
+    "confounder_candidate": "Der Sozialindex hängt sowohl mit der digitalen Ausstattung als auch mit der Mathematikleistung zusammen.",
+    "adjusted_observation": "Nach statistischer Kontrolle des Sozialindex ist der eigenständige lineare Zusammenhang zwischen digitaler Ausstattung und Mathematikleistung deutlich schwächer.",
+    "conclusion": "Die Ergebnisse sind mit einer Scheinkorrelation aufgrund einer gemeinsamen Drittvariable vereinbar."
+  }
+}

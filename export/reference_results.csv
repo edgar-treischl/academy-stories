@@ -1,0 +1,7 @@
+metric,value
+cor_devices_math,0.2572817849012196
+cor_social_devices,0.5125313592546414
+cor_social_math,0.5243509585538448
+beta_devices_baseline,0.8574454256669531
+beta_devices_adjusted,-0.051820599002606826
+partial_correlation,-0.015679951642130836

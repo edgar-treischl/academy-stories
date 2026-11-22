@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "story_id": "confounding_school_education",
+    "title": "Digitale Ausstattung und Mathematikleistung",
+    "subtitle": "Entdecke eine mögliche Scheinkorrelation im schulischen Kontext",
+    "version": "1.0.0",
+    "language": "de",
+    "dataset": "schools.csv"
+  },
+  "learning_objectives": [
+    "Korrelationen erkennen und interpretieren",
+    "Zusammenhänge explorativ untersuchen",
+    "Mögliche Drittvariablen identifizieren",
+    "Konfundierung grafisch untersuchen",
+    "Unbereinigte und bereinigte Zusammenhänge vergleichen"
+  ],
+  "learning_path": [
+    {
+      "id": "step_01",
+      "title": "Eine erste Beobachtung",
+      "type": "exploration",
+      "description": "Untersuche den Zusammenhang zwischen digitaler Ausstattung und Mathematikleistung.",
+      "task": "Erstelle einen Scatterplot und beschreibe den sichtbaren Zusammenhang.",
+      "available_variables": ["digital_devices", "math_performance"],
+      "expected_plot": "plot_04"
+    },
+    {
+      "id": "step_02",
+      "title": "Weitere Variablen entdecken",
+      "type": "exploration",
+      "description": "Untersuche, welche weiteren Merkmale mit der digitalen Ausstattung und der Mathematikleistung zusammenhängen.",
+      "task": "Finde eine Variable, die mit beiden Variablen zusammenhängen könnte.",
+      "available_variables": ["digital_devices", "math_performance", "social_index", "school_size", "teacher_experience", "school_type"]
+    },
+    {
+      "id": "step_03",
+      "title": "Die dritte Variable",
+      "type": "investigation",
+      "description": "Untersuche den Sozialindex und seine Beziehung zu den beiden ursprünglichen Variablen.",
+      "task": "Erstelle zwei Scatterplots, um die Beziehungen zu untersuchen.",
+      "expected_plots": ["plot_05", "plot_06"]
+    },
+    {
+      "id": "step_04",
+      "title": "Den Zusammenhang neu betrachten",
+      "type": "investigation",
+      "description": "Untersuche, ob der Zusammenhang zwischen Ausstattung und Leistung innerhalb vergleichbarer Sozialindex-Gruppen bestehen bleibt.",
+      "task": "Nutze Farbe oder Facetten, um den Sozialindex sichtbar zu machen.",
+      "expected_plots": ["plot_07", "plot_08"]
+    },
+    {
+      "id": "step_05",
+      "title": "Die Konfundierung überprüfen",
+      "type": "analysis",
+      "description": "Vergleiche den ursprünglichen Zusammenhang mit dem Zusammenhang nach Kontrolle des Sozialindex.",
+      "task": "Erstelle eine Visualisierung, die deine Vermutung zur Scheinkorrelation verdeutlicht.",
+      "expected_plot": "plot_12"
+    },
+    {
+      "id": "step_06",
+      "title": "Erkenntnisse reflektieren",
+      "type": "reflection",
+      "description": "Bewerte, was die Analyse über die Beziehung zwischen digitaler Ausstattung und Mathematikleistung aussagt.",
+      "task": "Erkläre, warum eine Korrelation nicht automatisch einen kausalen Zusammenhang bedeutet."
+    }
+  ]
+}

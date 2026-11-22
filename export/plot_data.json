@@ -1,0 +1,1287 @@
+{
+  "residual_analysis": [
+    {
+      "school_id": "S001",
+      "devices_residual": -12.627842,
+      "math_residual": -19.069105,
+      "social_index": 57.8,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S002",
+      "devices_residual": -10.127539,
+      "math_residual": 11.204714,
+      "social_index": 33.8,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S003",
+      "devices_residual": 1.87598,
+      "math_residual": 111.485927,
+      "social_index": 52.1,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S004",
+      "devices_residual": -0.34981,
+      "math_residual": -28.528616,
+      "social_index": 48.7,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S005",
+      "devices_residual": -14.033451,
+      "math_residual": 75.960644,
+      "social_index": 40,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S006",
+      "devices_residual": -3.237685,
+      "math_residual": -35.866657,
+      "social_index": 12.3,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S007",
+      "devices_residual": -14.729272,
+      "math_residual": 17.338719,
+      "social_index": 39,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S008",
+      "devices_residual": 6.208699,
+      "math_residual": -4.235555,
+      "social_index": 34.7,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S009",
+      "devices_residual": 0.837652,
+      "math_residual": -41.462843,
+      "social_index": 51.7,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S010",
+      "devices_residual": -2.705571,
+      "math_residual": -2.635776,
+      "social_index": 42.9,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S011",
+      "devices_residual": 5.39025,
+      "math_residual": 77.886148,
+      "social_index": 43.9,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S012",
+      "devices_residual": -7.329272,
+      "math_residual": 8.638719,
+      "social_index": 39,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S013",
+      "devices_residual": 7.058548,
+      "math_residual": -26.472464,
+      "social_index": 46.7,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S014",
+      "devices_residual": -7.901034,
+      "math_residual": 14.665343,
+      "social_index": 46.6,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S015",
+      "devices_residual": -17.135595,
+      "math_residual": -13.577619,
+      "social_index": 11.8,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S016",
+      "devices_residual": -11.839665,
+      "math_residual": 12.342755,
+      "social_index": 70.2,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S017",
+      "devices_residual": -1.093693,
+      "math_residual": 3.201588,
+      "social_index": 59.2,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S018",
+      "devices_residual": 3.290965,
+      "math_residual": -17.667764,
+      "social_index": 53.3,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S019",
+      "devices_residual": -5.084674,
+      "math_residual": -13.145397,
+      "social_index": 37.9,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S020",
+      "devices_residual": -2.73829,
+      "math_residual": 73.685705,
+      "social_index": 60.3,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S021",
+      "devices_residual": 4.605235,
+      "math_residual": 10.232457,
+      "social_index": 45.1,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S022",
+      "devices_residual": 2.235205,
+      "math_residual": 72.325075,
+      "social_index": 47.5,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S023",
+      "devices_residual": 1.772103,
+      "math_residual": -27.01833,
+      "social_index": 29.1,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S024",
+      "devices_residual": -2.667187,
+      "math_residual": -11.437782,
+      "social_index": 72,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S025",
+      "devices_residual": 3.841831,
+      "math_residual": -6.684767,
+      "social_index": 50.7,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S026",
+      "devices_residual": 11.965229,
+      "math_residual": -92.833082,
+      "social_index": 78.6,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S027",
+      "devices_residual": -5.083904,
+      "math_residual": -62.050085,
+      "social_index": 76,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S028",
+      "devices_residual": 22.060995,
+      "math_residual": 12.439618,
+      "social_index": 50.9,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S029",
+      "devices_residual": 10.504218,
+      "math_residual": -23.187449,
+      "social_index": 59.7,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S030",
+      "devices_residual": -15.143487,
+      "math_residual": 44.987723,
+      "social_index": 75.9,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S031",
+      "devices_residual": -6.982227,
+      "math_residual": 14.066684,
+      "social_index": 42.1,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S032",
+      "devices_residual": -4.085692,
+      "math_residual": -13.665304,
+      "social_index": 52.5,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S033",
+      "devices_residual": 2.260638,
+      "math_residual": 21.516574,
+      "social_index": 46.2,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S034",
+      "devices_residual": -7.29614,
+      "math_residual": -4.810493,
+      "social_index": 55,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S035",
+      "devices_residual": -4.666528,
+      "math_residual": 7.259081,
+      "social_index": 52.7,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S036",
+      "devices_residual": 3.451619,
+      "math_residual": 6.463559,
+      "social_index": 67.5,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S037",
+      "devices_residual": 2.527561,
+      "math_residual": 7.315011,
+      "social_index": 58.9,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S038",
+      "devices_residual": -10.159241,
+      "math_residual": -21.653899,
+      "social_index": 36.6,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S039",
+      "devices_residual": -6.291603,
+      "math_residual": 16.690626,
+      "social_index": 58.7,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S040",
+      "devices_residual": -14.463421,
+      "math_residual": -17.431974,
+      "social_index": 37.6,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S041",
+      "devices_residual": -26.542524,
+      "math_residual": 40.958404,
+      "social_index": 32.6,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S042",
+      "devices_residual": 1.095859,
+      "math_residual": 8.056399,
+      "social_index": 61.7,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S043",
+      "devices_residual": -4.959599,
+      "math_residual": -22.476942,
+      "social_index": 31.9,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S044",
+      "devices_residual": 2.065532,
+      "math_residual": -26.959263,
+      "social_index": 54.6,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S045",
+      "devices_residual": -8.823003,
+      "math_residual": -36.494167,
+      "social_index": 37.5,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S046",
+      "devices_residual": 3.715738,
+      "math_residual": 21.226871,
+      "social_index": 71.3,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S047",
+      "devices_residual": -11.599962,
+      "math_residual": 5.934475,
+      "social_index": 60.7,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S048",
+      "devices_residual": 19.349832,
+      "math_residual": 6.84834,
+      "social_index": 44,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S049",
+      "devices_residual": -11.325395,
+      "math_residual": 2.542976,
+      "social_index": 62,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S050",
+      "devices_residual": 3.838009,
+      "math_residual": -112.839799,
+      "social_index": 56.4,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S051",
+      "devices_residual": 20.197894,
+      "math_residual": -12.603788,
+      "social_index": 32.5,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S052",
+      "devices_residual": -7.422288,
+      "math_residual": 51.951921,
+      "social_index": 46.9,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S053",
+      "devices_residual": -4.716734,
+      "math_residual": -2.527053,
+      "social_index": 36,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S054",
+      "devices_residual": -6.683245,
+      "math_residual": 4.246778,
+      "social_index": 56.7,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S055",
+      "devices_residual": 3.045295,
+      "math_residual": 31.347221,
+      "social_index": 40.3,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S056",
+      "devices_residual": 4.539384,
+      "math_residual": 19.403151,
+      "social_index": 46.5,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S057",
+      "devices_residual": -9.697927,
+      "math_residual": -48.625712,
+      "social_index": 31.5,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S058",
+      "devices_residual": -11.655062,
+      "math_residual": -6.075823,
+      "social_index": 35.6,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S059",
+      "devices_residual": -14.183602,
+      "math_residual": 15.723734,
+      "social_index": 52,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S060",
+      "devices_residual": -0.612554,
+      "math_residual": -5.748977,
+      "social_index": 35,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S061",
+      "devices_residual": 3.873533,
+      "math_residual": 12.373845,
+      "social_index": 47.9,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S062",
+      "devices_residual": -6.485692,
+      "math_residual": -15.265304,
+      "social_index": 52.5,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S063",
+      "devices_residual": -12.662706,
+      "math_residual": -22.485887,
+      "social_index": 47,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S064",
+      "devices_residual": -17.896855,
+      "math_residual": -2.856581,
+      "social_index": 45.6,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S065",
+      "devices_residual": 6.733417,
+      "math_residual": 23.209856,
+      "social_index": 24,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S066",
+      "devices_residual": -6.818108,
+      "math_residual": -0.370004,
+      "social_index": 45.9,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S067",
+      "devices_residual": 6.737597,
+      "math_residual": 7.887932,
+      "social_index": 23,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S068",
+      "devices_residual": 24.732455,
+      "math_residual": 16.139175,
+      "social_index": 67.3,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S069",
+      "devices_residual": 10.787446,
+      "math_residual": 45.851023,
+      "social_index": 35,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S070",
+      "devices_residual": -6.064438,
+      "math_residual": -63.451881,
+      "social_index": 52.2,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S071",
+      "devices_residual": 13.672158,
+      "math_residual": -7.369105,
+      "social_index": 57.8,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S072",
+      "devices_residual": -7.715661,
+      "math_residual": 38.542078,
+      "social_index": 50.1,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S073",
+      "devices_residual": 5.760335,
+      "math_residual": 15.542755,
+      "social_index": 70.2,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S074",
+      "devices_residual": 2.357833,
+      "math_residual": -57.918552,
+      "social_index": 37.3,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S075",
+      "devices_residual": 2.816755,
+      "math_residual": -6.553222,
+      "social_index": 56.7,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S076",
+      "devices_residual": 2.066192,
+      "math_residual": 41.3376,
+      "social_index": 35.3,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S077",
+      "devices_residual": 5.831438,
+      "math_residual": -10.380732,
+      "social_index": 81.9,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S078",
+      "devices_residual": 3.96171,
+      "math_residual": -0.614295,
+      "social_index": 60.3,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S079",
+      "devices_residual": -20.073511,
+      "math_residual": -17.85412,
+      "social_index": 44.8,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S080",
+      "devices_residual": 0.055441,
+      "math_residual": 45.418591,
+      "social_index": 61.8,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S081",
+      "devices_residual": 3.417058,
+      "math_residual": 27.720597,
+      "social_index": 32.7,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S082",
+      "devices_residual": 2.490305,
+      "math_residual": 31.635373,
+      "social_index": 72.6,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S083",
+      "devices_residual": 3.217058,
+      "math_residual": 25.120597,
+      "social_index": 32.7,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S084",
+      "devices_residual": 17.882551,
+      "math_residual": 0.626859,
+      "social_index": 26.6,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S085",
+      "devices_residual": -0.1519,
+      "math_residual": 86.182346,
+      "social_index": 49.2,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S086",
+      "devices_residual": 4.89168,
+      "math_residual": 18.078323,
+      "social_index": 62.7,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S087",
+      "devices_residual": -0.394408,
+      "math_residual": -12.844499,
+      "social_index": 49.8,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S088",
+      "devices_residual": 20.0324,
+      "math_residual": -42.01005,
+      "social_index": 38.6,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S089",
+      "devices_residual": -6.888799,
+      "math_residual": 19.625752,
+      "social_index": 67.6,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S090",
+      "devices_residual": 15.593467,
+      "math_residual": -23.406458,
+      "social_index": 86.2,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S091",
+      "devices_residual": 10.407627,
+      "math_residual": -4.104686,
+      "social_index": 20.6,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S092",
+      "devices_residual": -5.007605,
+      "math_residual": -13.175589,
+      "social_index": 72.1,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S093",
+      "devices_residual": 13.694429,
+      "math_residual": -14.235776,
+      "social_index": 42.9,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S094",
+      "devices_residual": 5.283321,
+      "math_residual": 23.322172,
+      "social_index": 64.7,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S095",
+      "devices_residual": 8.499268,
+      "math_residual": 23.339162,
+      "social_index": 22.6,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S096",
+      "devices_residual": -19.498944,
+      "math_residual": 28.154381,
+      "social_index": 46.1,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S097",
+      "devices_residual": -8.755062,
+      "math_residual": -9.475823,
+      "social_index": 35.6,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S098",
+      "devices_residual": -1.284317,
+      "math_residual": 21.277647,
+      "social_index": 42.6,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S099",
+      "devices_residual": 3.472461,
+      "math_residual": -47.095286,
+      "social_index": 33.8,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S100",
+      "devices_residual": 3.701771,
+      "math_residual": -34.199531,
+      "social_index": 55.5,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S101",
+      "devices_residual": -1.431306,
+      "math_residual": 32.098906,
+      "social_index": 68.2,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S102",
+      "devices_residual": 3.215683,
+      "math_residual": -19.222353,
+      "social_index": 42.6,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S103",
+      "devices_residual": 14.298966,
+      "math_residual": 3.665343,
+      "social_index": 46.6,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S104",
+      "devices_residual": 16.97455,
+      "math_residual": 61.593751,
+      "social_index": 33.3,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S105",
+      "devices_residual": 6.402485,
+      "math_residual": 10.746556,
+      "social_index": 64.9,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S106",
+      "devices_residual": -9.970349,
+      "math_residual": -39.395951,
+      "social_index": 58.4,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S107",
+      "devices_residual": -11.977031,
+      "math_residual": -117.935333,
+      "social_index": 26.5,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S108",
+      "devices_residual": 18.051977,
+      "math_residual": -16.613397,
+      "social_index": 72.2,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S109",
+      "devices_residual": -7.202106,
+      "math_residual": 7.096212,
+      "social_index": 32.5,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S110",
+      "devices_residual": 4.410789,
+      "math_residual": 28.453483,
+      "social_index": 34.2,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S111",
+      "devices_residual": 1.057118,
+      "math_residual": -30.864639,
+      "social_index": 27.9,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S112",
+      "devices_residual": 8.659565,
+      "math_residual": -35.352558,
+      "social_index": 32.1,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S113",
+      "devices_residual": -6.873511,
+      "math_residual": -6.75412,
+      "social_index": 44.8,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S114",
+      "devices_residual": -3.508678,
+      "math_residual": 6.355279,
+      "social_index": 58,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S115",
+      "devices_residual": 4.849475,
+      "math_residual": -1.074703,
+      "social_index": 39.3,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S116",
+      "devices_residual": -10.162706,
+      "math_residual": -26.685887,
+      "social_index": 47,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S117",
+      "devices_residual": -0.677691,
+      "math_residual": 11.567804,
+      "social_index": 45.8,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S118",
+      "devices_residual": -3.388799,
+      "math_residual": 37.225752,
+      "social_index": 67.6,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S119",
+      "devices_residual": -8.738592,
+      "math_residual": 3.111886,
+      "social_index": 84.3,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S120",
+      "devices_residual": 2.091625,
+      "math_residual": 26.229098,
+      "social_index": 34,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S121",
+      "devices_residual": 7.165229,
+      "math_residual": -32.433082,
+      "social_index": 78.6,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S122",
+      "devices_residual": 3.79102,
+      "math_residual": 33.78146,
+      "social_index": 82,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S123",
+      "devices_residual": 6.710129,
+      "math_residual": 28.35662,
+      "social_index": 53.5,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S124",
+      "devices_residual": -1.931664,
+      "math_residual": -39.824137,
+      "social_index": 63.5,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S125",
+      "devices_residual": 0.173835,
+      "math_residual": 0.847664,
+      "social_index": 23.9,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S126",
+      "devices_residual": -12.804498,
+      "math_residual": -4.766645,
+      "social_index": 57,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S127",
+      "devices_residual": 15.139027,
+      "math_residual": -16.519893,
+      "social_index": 41.8,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S128",
+      "devices_residual": 11.435205,
+      "math_residual": 20.625075,
+      "social_index": 47.5,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S129",
+      "devices_residual": 8.670069,
+      "math_residual": -7.958143,
+      "social_index": 58.3,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S130",
+      "devices_residual": 6.059978,
+      "math_residual": 55.519711,
+      "social_index": 65.5,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S131",
+      "devices_residual": 6.807682,
+      "math_residual": -0.955461,
+      "social_index": 49.3,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S132",
+      "devices_residual": -0.480742,
+      "math_residual": -44.491916,
+      "social_index": 89.6,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S133",
+      "devices_residual": 0.267979,
+      "math_residual": -24.247181,
+      "social_index": 58.8,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S134",
+      "devices_residual": -8.462706,
+      "math_residual": -11.985887,
+      "social_index": 47,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S135",
+      "devices_residual": 13.557173,
+      "math_residual": -26.415415,
+      "social_index": 56.6,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S136",
+      "devices_residual": 10.631025,
+      "math_residual": 19.446999,
+      "social_index": 48.5,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S137",
+      "devices_residual": 3.853296,
+      "math_residual": -19.119671,
+      "social_index": 33.6,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S138",
+      "devices_residual": 2.193412,
+      "math_residual": 26.044317,
+      "social_index": 57.5,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S139",
+      "devices_residual": 2.685411,
+      "math_residual": 4.611209,
+      "social_index": 64.2,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S140",
+      "devices_residual": 7.420935,
+      "math_residual": -38.475146,
+      "social_index": 55.7,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S141",
+      "devices_residual": 11.061353,
+      "math_residual": 20.662661,
+      "social_index": 55.6,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S142",
+      "devices_residual": -13.545274,
+      "math_residual": -15.027496,
+      "social_index": 52.4,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S143",
+      "devices_residual": -3.70832,
+      "math_residual": 3.578323,
+      "social_index": 62.7,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S144",
+      "devices_residual": 13.425416,
+      "math_residual": 58.276748,
+      "social_index": 30.7,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S145",
+      "devices_residual": -2.007963,
+      "math_residual": 14.901367,
+      "social_index": 67.4,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S146",
+      "devices_residual": 14.921595,
+      "math_residual": -5.778284,
+      "social_index": 36.4,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S147",
+      "devices_residual": -9.79614,
+      "math_residual": -54.610493,
+      "social_index": 55,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S148",
+      "devices_residual": 14.036277,
+      "math_residual": 20.594207,
+      "social_index": 61.6,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S149",
+      "devices_residual": -8.630289,
+      "math_residual": -14.681187,
+      "social_index": 53.6,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S150",
+      "devices_residual": -11.717449,
+      "math_residual": 38.026859,
+      "social_index": 26.6,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S151",
+      "devices_residual": 8.963085,
+      "math_residual": -57.471345,
+      "social_index": 50.4,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S152",
+      "devices_residual": -1.69614,
+      "math_residual": -1.110493,
+      "social_index": 55,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S153",
+      "devices_residual": -7.557097,
+      "math_residual": -27.515636,
+      "social_index": 64.8,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S154",
+      "devices_residual": -7.706588,
+      "math_residual": -8.255683,
+      "social_index": 57.5,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S155",
+      "devices_residual": 6.408397,
+      "math_residual": -7.909374,
+      "social_index": 58.7,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S156",
+      "devices_residual": -10.286709,
+      "math_residual": 4.91479,
+      "social_index": 67.1,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S157",
+      "devices_residual": 10.909057,
+      "math_residual": 58.387489,
+      "social_index": 39.4,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S158",
+      "devices_residual": 16.583624,
+      "math_residual": 5.195991,
+      "social_index": 40.7,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S159",
+      "devices_residual": -12.934826,
+      "math_residual": -9.182307,
+      "social_index": 49.9,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S160",
+      "devices_residual": -17.936558,
+      "math_residual": -25.348301,
+      "social_index": 55.1,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S161",
+      "devices_residual": -21.803426,
+      "math_residual": 47.602487,
+      "social_index": 71.1,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S162",
+      "devices_residual": 7.379087,
+      "math_residual": -21.205129,
+      "social_index": 37,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S163",
+      "devices_residual": -13.880495,
+      "math_residual": -16.767321,
+      "social_index": 36.9,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S164",
+      "devices_residual": 13.536277,
+      "math_residual": 12.694207,
+      "social_index": 61.6,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S165",
+      "devices_residual": 0.049832,
+      "math_residual": 24.34834,
+      "social_index": 44,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S166",
+      "devices_residual": -14.78187,
+      "math_residual": 12.489728,
+      "social_index": 46.8,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S167",
+      "devices_residual": -9.153275,
+      "math_residual": 8.139396,
+      "social_index": 59.1,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S168",
+      "devices_residual": -1.856794,
+      "math_residual": -52.941817,
+      "social_index": 40.8,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S169",
+      "devices_residual": 21.030311,
+      "math_residual": -32.899088,
+      "social_index": 39.1,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S170",
+      "devices_residual": 3.001056,
+      "math_residual": 9.654381,
+      "social_index": 46.1,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S171",
+      "devices_residual": -18.590586,
+      "math_residual": 49.710533,
+      "social_index": 44.1,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S172",
+      "devices_residual": -2.812197,
+      "math_residual": -22.525934,
+      "social_index": 39.7,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S173",
+      "devices_residual": -15.269992,
+      "math_residual": -7.772907,
+      "social_index": 63.1,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S174",
+      "devices_residual": -8.465153,
+      "math_residual": 16.102031,
+      "social_index": 42.8,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S175",
+      "devices_residual": 12.820577,
+      "math_residual": -42.69819,
+      "social_index": 51,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S176",
+      "devices_residual": -3.12402,
+      "math_residual": -34.014073,
+      "social_index": 52.1,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S177",
+      "devices_residual": 10.201358,
+      "math_residual": 1.3282,
+      "social_index": 22.1,
+      "social_group": "Niedrig"
+    },
+    {
+      "school_id": "S178",
+      "devices_residual": 5.423024,
+      "math_residual": -10.686108,
+      "social_index": 55.2,
+      "social_group": "Mittel"
+    },
+    {
+      "school_id": "S179",
+      "devices_residual": 5.030723,
+      "math_residual": 12.57318,
+      "social_index": 72.5,
+      "social_group": "Hoch"
+    },
+    {
+      "school_id": "S180",
+      "devices_residual": 19.505592,
+      "math_residual": -22.944499,
+      "social_index": 49.8,
+      "social_group": "Mittel"
+    }
+  ],
+  "group_summary": [
+    {
+      "social_group": "Niedrig",
+      "n": 51,
+      "mean_devices": 32.694118,
+      "mean_math": 470.827451,
+      "mean_social_index": 32.301961
+    },
+    {
+      "social_group": "Mittel",
+      "n": 87,
+      "mean_devices": 39.126437,
+      "mean_math": 496.196552,
+      "mean_social_index": 50.543678
+    },
+    {
+      "social_group": "Hoch",
+      "n": 42,
+      "mean_devices": 47.62619,
+      "mean_math": 530.102381,
+      "mean_social_index": 69.430952
+    }
+  ]
+}
