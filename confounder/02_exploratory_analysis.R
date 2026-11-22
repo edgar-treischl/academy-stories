@@ -9,7 +9,7 @@ library(patchwork)
 # Datensatz betrachten
 glimpse(schools)
 
-# Deskriptive Statistiken
+# Tab: Deskriptive Statistiken anzeigen
 schools %>%
   select(
     digital_devices,
@@ -20,6 +20,8 @@ schools %>%
   ) %>%
   summary()
 
+# Tab for Plots: 
+# User inspiziert verfügbare Daten
 # Verteilung der digitalen Ausstattung
 p1 <- ggplot(
   schools,

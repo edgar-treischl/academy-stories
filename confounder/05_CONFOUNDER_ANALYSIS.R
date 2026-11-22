@@ -1,7 +1,7 @@
 
 # ============================================================
 # LEARNING STORY
-# 05_CONFOUNDER_ANALYSIS.R
+# 05_CONFOUNDER_ANALYSIS.R: Auflösung => Scheinkorrelation durch Sozialindex
 # ============================================================
 #
 # Untersuchung der Rolle des Sozialindex
@@ -30,7 +30,6 @@ library(viridis)
 
 schools <- schools %>%
   mutate(
-    
     social_group = cut(
       social_index,
       breaks = c(-Inf, 40, 60, Inf),
@@ -57,14 +56,12 @@ color_grid <- "#E8EDF1"
 plot_theme <- theme_minimal(base_size = 12) +
   
   theme(
-    
     plot.title = element_text(
       size = 14,
       face = "bold",
       color = color_text,
       margin = margin(b = 6)
     ),
-    
     plot.subtitle = element_text(
       size = 10,
       color = "#718096",
@@ -143,7 +140,6 @@ p1 <- ggplot(
     y = math_performance
   )
 ) +
-  
   geom_smooth(
     method = "lm",
     formula = y ~ x,
@@ -153,13 +149,11 @@ p1 <- ggplot(
     alpha = 0.12,
     linewidth = 1
   ) +
-  
   geom_point(
     color = color_points,
     alpha = 0.65,
     size = 2.4
   ) +
-  
   annotate(
     "label",
     x = Inf,
@@ -176,14 +170,12 @@ p1 <- ggplot(
     color = color_text,
     label.size = 0
   ) +
-  
   labs(
     title = "A | Der ursprüngliche Zusammenhang",
     subtitle = "Alle Schulen gemeinsam betrachtet",
     x = "Digitale Endgeräte pro 100 Schüler",
     y = "Mathematikleistung"
   ) +
-  
   plot_theme
 
 
@@ -199,12 +191,10 @@ p2 <- ggplot(
     color = social_index
   )
 ) +
-  
   geom_point(
     size = 2.6,
     alpha = 0.85
   ) +
-  
   geom_smooth(
     aes(group = 1),
     method = "lm",
@@ -213,21 +203,18 @@ p2 <- ggplot(
     color = color_line,
     linewidth = 1
   ) +
-  
   scale_color_viridis_c(
     option = "C",
     begin = 0.1,
     end = 0.9,
     name = "Sozialindex"
   ) +
-  
   labs(
     title = "B | Eine zusätzliche Information",
     subtitle = "Die Schulen nach Sozialindex eingefärbt",
     x = "Digitale Endgeräte pro 100 Schüler",
     y = "Mathematikleistung"
   ) +
-  
   plot_theme
 
 
@@ -493,3 +480,11 @@ print(summary(model_1))
 cat("\n")
 cat("MODELL 2: MIT SOZIALINDEX\n")
 print(summary(model_2))
+
+
+model_final <- lm(
+  math_performance ~ digital_devices + social_index,
+  data = schools
+)
+
+summary(model_final)
