@@ -214,7 +214,7 @@ reference_export <- list(
   metadata = list(
     story_id = STORY_ID,
     dataset_version = DATASET_VERSION,
-    description = "Statistische Referenzergebnisse der simulierten Schuldaten"
+    description = "Statistische Ergebnisse der simulierten Schuldaten"
   ),
   
   correlations = list(

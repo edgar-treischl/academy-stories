@@ -168,7 +168,7 @@ data_description <- list(
   
   data_source = "Synthetisch generierte Daten",
   
-  geographic_scope = "Fiktive Schulen in Deutschland"
+  geographic_scope = "Fiktive Schulen in Bayern"
   
 )
 
@@ -189,7 +189,7 @@ story_chapters <- list(
   ),
   
   chapter_02 = list(
-    title = "Erste Datenexploration",
+    title = "Datenexploration",
     question = "Wie sehen die Daten aus?",
     available_variables = c(
       "digital_devices",
@@ -281,17 +281,11 @@ causal_structure <- list(
 
 learning_objectives <- c(
   
-  "Korrelationen erkennen und beschreiben",
-  
-  "Unterschied zwischen Korrelation und Kausalität verstehen",
-  
-  "Potenzielle Drittvariablen identifizieren",
-  
-  "Zusammenhänge zwischen mehreren Variablen untersuchen",
-  
-  "Konfundierung anhand von Visualisierungen erkennen",
-  
-  "Datenbasierte Schlussfolgerungen kritisch formulieren"
+  "- Korrelationen erkennen und beschreiben",
+  "- Unterschied zwischen Korrelation und Kausalität verstehen",
+  "- Potenzielle Drittvariablen identifizieren",
+  "- Zusammenhänge zwischen mehreren Variablen untersuchen",
+  "- Konfundierung anhand von Visualisierungen erkennen"
   
 )
 

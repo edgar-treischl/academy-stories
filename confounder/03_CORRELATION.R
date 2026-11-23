@@ -62,15 +62,14 @@ plot_correlation <- ggplot(
   # Beschriftungen
   labs(
     title = "Digitale Ausstattung und Mathematikleistung",
-    subtitle = "Eine erste Untersuchung des Zusammenhangs zwischen Schulen",
+    subtitle = "Vorläufige des Zusammenhangs",
     x = "Digitale Endgeräte pro 100 Schüler",
-    y = "Durchschnittlicher Mathematik-Score",
+    y = "Durchschnittl. Mathematik-Score",
     caption = "Quelle: Eigene Simulation | Jede Beobachtung repräsentiert eine Schule"
   ) +
   
   # Design
   theme_minimal(base_size = 13) +
-  
   theme(
     plot.title = element_text(
       size = 17,
@@ -78,7 +77,6 @@ plot_correlation <- ggplot(
       color = "#263746",
       margin = margin(b = 8)
     ),
-    
     plot.subtitle = element_text(
       size = 11,
       color = "#667788",
@@ -137,4 +135,5 @@ model_1 <- lm(
 summary(model_1)
 
 
+#ggsave("plot.svg", device = "svg", width = 8, height = 6)
 

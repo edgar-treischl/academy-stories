@@ -1,6 +1,6 @@
 
 # ============================================================
-# 02_EXPLORATORY_ANALYSIS.R
+# 02_EXPLORATORY_ANALYSIS.R: This correspondes with View: Data explorer
 # ============================================================
 
 library(tidyverse)
