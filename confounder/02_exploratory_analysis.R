@@ -58,3 +58,21 @@ p2 <- ggplot(
 
 # Verteilungen gegenüberstellen
 p1 / p2
+
+
+schools
+
+
+export <- "FALSE"
+
+if (export) {
+  write_json(
+    schools,
+    path = "confounder2.json",
+    pretty = TRUE,
+    auto_unbox = TRUE,
+    na = "null",
+    dataframe = "rows",
+    digits = 6
+  )
+}

@@ -4,9 +4,6 @@ library(dplyr)
 library(broom)
 library(forcats)
 
-# --------------------------------------------------
-# 1. Fit models
-# --------------------------------------------------
 
 model_1 <- lm(
   math_performance ~ digital_devices,
@@ -24,17 +21,13 @@ model_2 <- lm(
 # --------------------------------------------------
 
 results <- bind_rows(
-  
   tidy(model_1, conf.int = TRUE) %>%
     mutate(model = "Model 1: Without social index"),
-  
   tidy(model_2, conf.int = TRUE) %>%
     mutate(model = "Model 2: With social index")
   
 ) %>%
-  
   filter(term == "digital_devices") %>%
-  
   mutate(
     model = factor(
       model,
@@ -46,10 +39,8 @@ results <- bind_rows(
   )
 
 
-# --------------------------------------------------
-# 3. Define visual style
-# --------------------------------------------------
 
+# 3. Define visual style
 color_points <- "#2878A0"
 color_line <- "#D55E00"
 color_text <- "#263746"
@@ -64,48 +55,36 @@ plot_theme <- theme_minimal(base_size = 12) +
       color = color_text,
       margin = margin(b = 6)
     ),
-    
     plot.subtitle = element_text(
       size = 10,
       color = "#718096",
       margin = margin(b = 12)
     ),
-    
     axis.title = element_text(
       size = 10,
       face = "bold",
       color = color_text
     ),
-    
     axis.text = element_text(
       size = 9,
       color = "#536575"
     ),
-    
     panel.grid.minor = element_blank(),
-    
     panel.grid.major = element_line(
       color = color_grid,
       linewidth = 0.4
     ),
-    
     plot.background = element_rect(
       fill = "white",
       color = NA
     ),
-    
     panel.background = element_rect(
       fill = "white",
       color = NA
     ),
-    
     plot.margin = margin(12, 15, 12, 15)
   )
 
-
-# --------------------------------------------------
-# 4. Create dot-and-whisker plot
-# --------------------------------------------------
 
 p <- ggplot(
   results,
@@ -114,15 +93,12 @@ p <- ggplot(
     y = model
   )
 ) +
-  
-  # Reference line at zero
   geom_vline(
     xintercept = 0,
     color = color_line,
     linetype = "dashed",
     linewidth = 0.7
   ) +
-  
   # Confidence intervals
   geom_errorbar(
     aes(
@@ -134,13 +110,11 @@ p <- ggplot(
     linewidth = 1,
     color = color_points
   ) +
-  
   # Coefficient estimates
   geom_point(
     size = 3.5,
     color = color_points
   ) +
-  
   # Labels
   labs(
     title = "Effect of digital devices on math performance",
@@ -148,17 +122,10 @@ p <- ggplot(
     x = "Regression coefficient (95% confidence interval)",
     y = NULL
   ) +
-  
   scale_y_discrete(
     limits = rev(levels(results$model))
   ) +
-  
   plot_theme
-
-
-# --------------------------------------------------
-# 5. Display plot
-# --------------------------------------------------
 
 p
 
@@ -182,7 +149,6 @@ annotation_text <- paste0(
   round(percentage_change, 1),
   "%"
 )
-
 
 
 p <- p +
